@@ -43,4 +43,6 @@ const challanSchema = new mongoose.Schema(
   timestamps:true
 });
 
-module.exports = mongoose.model("Challan",challanSchema);
+module.exports =
+  mongoose.models.Challan ||
+  mongoose.model("Challan", challanSchema);
