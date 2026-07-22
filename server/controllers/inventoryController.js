@@ -1,5 +1,5 @@
 const Inventory = require("../models/Inventory");
-const Product = require("../models/Product");
+const Product = require("../models/product");
 
 
 // Stock IN / OUT
