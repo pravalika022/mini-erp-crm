@@ -1,5 +1,5 @@
 const Customer = require("../models/Customer");
-const Product = require("../models/Product");
+const Product = require("../models/product");
 const Challan = require("../models/Challan");
 
 exports.getDashboard = async (req,res)=>{
