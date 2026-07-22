@@ -42,7 +42,7 @@ export default function Dashboard() {
         style={{
           padding: "30px",
           marginLeft: "270px",
-          background:  "#f1f5f9",
+          background: "#f1f5f9",
           minHeight: "100vh",
         }}
       >
